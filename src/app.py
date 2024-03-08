@@ -9,8 +9,8 @@ from api.utils import APIException, generate_sitemap
 from api.routes import api
 from api.admin import setup_admin
 from api.commands import setup_commands
-from api.models import db
 from flask_jwt_extended import JWTManager
+from api.models import db, Users
 # from models import Person
 
 
